@@ -1,0 +1,91 @@
+/* Custom styling for the admin page
+------------------------------------------------------------ */
+
+.tgm-aw-content {
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	background: #eee url(images/bg.png) repeat scroll 0 0;
+	border-radius: 3px;
+	font-size: 14px;
+	margin-top: 10px;
+}
+
+.tgm-aw-header .content,
+.tgm-aw-table .content {
+	margin: 0 auto;
+	padding: 40px 0;
+	width: 800px;
+}
+
+.tgm-aw-header {
+	-moz-border-radius-topleft: 3px;
+	-moz-border-radius-topright: 3px;
+	-webkit-border-top-left-radius: 3px;
+	-webkit-border-top-right-radius: 3px;
+	background: #0168ff;
+	border-bottom: 1px solid rgba(0, 0, 0, .2);
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	min-height: 200px;
+}
+
+.tgm-aw-header.authenticated {
+	min-height: 170px;
+}
+
+.tgm-aw-header p {
+	color: #fff;
+	text-align: center;
+	text-shadow: 0 1px rgba(0, 0, 0, .3);
+}
+
+.tgm-aw-table {
+	border-top: 1px solid #fff;
+	padding-bottom: 1px;
+}
+
+.tgm-aw-table .content {
+	-webkit-border-top-left-radius: 9px;
+	-webkit-border-top-right-radius: 9px;
+	-moz-border-radius-topleft: 9px;
+	-moz-border-radius-topright: 9px;
+	-webkit-box-shadow: 0 0 5px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0 0 5px rgba(0,0,0,0.2);
+	background: #f0f0f0;
+	border-top-left-radius: 9px;
+	border-top-right-radius: 9px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.2);
+	margin-top: -52px;
+	padding: 20px 0 40px;
+}
+
+.tgm-aw-table tr {
+	border-bottom: 1px solid #eaeaea;
+	border-top: 1px solid #eaeaea;
+}
+
+.tgm-aw-table tr:nth-child(odd) {
+	background: #fff;
+}
+
+.tgm-aw-table th,
+.tgm-aw-table td {
+	color: #3f3f38;
+	vertical-align: middle;
+}
+
+.tgm-aw-table th {
+	width: 330px;
+}
+
+.tgm-aw-table td {
+	width: 430px;
+}
+
+.tgm-aw-table .submit {
+	padding-left: 10px;
+}
+
+.tgm-aw-table .submit input {
+	margin-left: 0;
+}
